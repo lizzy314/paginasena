@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Khula', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color:#656C73;
+    text-align: center;
+}
+
+header{
+    background-color:#261E1C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 5px 10%;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+header .logo {
+    cursor: pointer;
+}
+header .logo img{
+    height: 65px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+header .logo img:hover{
+    transform: scale(1.2);
+}
+
+header .navegador {
+    list-style: none;
+}
+
+header .navegador li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header .navegador li:hover{
+    transform: scale(1.1);
+}
+
+header .navegador a {
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+}
+
+header .btn button{
+    font-weight: 700;
+    color: #2E2C73;
+    padding: 9px 25px;
+    background: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 1s;
+}
+
+header .btn button:hover{
+    background-color: #2E2C73;
+    color: white;
+    transform: scale(1.1);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.headers {
+    height: 60vh !important;
+    background: url(../img/aner3.jpeg) no-repeat center;
+    background-size: cover;
+    
+}
+
+.titleC {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+
+.content {
+    /*height: 50vh;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.yz{
+    padding: 30px;
+}
+
+.box-conta{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-conta .box {
+    height: 12rem;
+    width: 12rem;
+    background: #59150E;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+
+.i {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background: #8AB0BF;
+}
+
+
+.box-conta .box .cart {
+    
+    line-height: 1.7rem;
+    text-align: center;
+    
+    color:white;
+    
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+
